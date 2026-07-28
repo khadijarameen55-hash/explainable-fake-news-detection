@@ -87,6 +87,9 @@ explainable-fake-news-detection/
 ## Results
 
 The Fine-Tuned BERT model achieved better classification performance than the Logistic Regression baseline model. LIME was used to explain individual predictions and improve the interpretability of the proposed framework.
+### BERT Confusion Matrix
+
+![BERT Confusion Matrix](results/confusion_matrix_bert.png)
 
 ---
 
