@@ -96,6 +96,9 @@ The Fine-Tuned BERT model achieved better classification performance than the Lo
 ### LIME Explanation
 
 ![LIME Explanation](results/lime_explanation.png)
+### ROC Curve
+
+![ROC Curve](results/roc_curve.png)
 ---
 
 ## Future Work
