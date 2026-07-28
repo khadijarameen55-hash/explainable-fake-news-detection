@@ -13,6 +13,7 @@ This repository presents the implementation of my MPhil research project, which 
 - Improve model transparency using LIME.
 - Evaluate models using standard performance metrics.
 
+
 ---
 
 ## Dataset
@@ -83,10 +84,29 @@ explainable-fake-news-detection/
 ```
 
 ---
+## ⚙️ Methodology
+
+The proposed framework follows these steps:
+
+1. WELFake Dataset Collection
+2. Data Preprocessing
+3. Train-Test Split (80:20)
+4. TF-IDF Feature Extraction
+5. Logistic Regression Training
+6. Fine-Tuned BERT Training
+7. Performance Evaluation
+8. LIME Explainability
+---
+
+git clone https://github.com/yourusername/explainable-fake-news-detection.git
 
 ## Results
 
 The Fine-Tuned BERT model achieved better classification performance than the Logistic Regression baseline model. LIME was used to explain individual predictions and improve the interpretability of the proposed framework.
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | 94.36% |
+| Fine-Tuned BERT | 99.45% |
 ### BERT Confusion Matrix
 
 ![BERT Confusion Matrix](results/confusion_matrix_bert.png)
@@ -101,24 +121,29 @@ The Fine-Tuned BERT model achieved better classification performance than the Lo
 
 ![ROC Curve](results/roc_curve.png)
 ---
-
 ## Future Work
+Future work may include:
 
-Future research can explore:
-- RoBERTa
-- DeBERTa
-- Multilingual Fake News Detection
+- RoBERTa-based fake news detection
+- DeBERTa-based models
+- Multilingual fake news detection
 - Explainable Large Language Models (LLMs)
+- Web-based deployment
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Khadija Rameen**
 
 MPhil Data Science
 
 Superior University, Lahore, Pakistan
+
+Research Area:
+Machine Learning
+Deep Learning
+Explainable Artificial Intelligence (XAI)
 
 ---
 
