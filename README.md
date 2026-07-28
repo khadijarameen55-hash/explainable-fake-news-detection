@@ -90,7 +90,9 @@ The Fine-Tuned BERT model achieved better classification performance than the Lo
 ### BERT Confusion Matrix
 
 ![BERT Confusion Matrix](results/confusion_matrix_bert.png)
+### Logistic Regression Confusion Matrix
 
+![Logistic Regression Confusion Matrix](results/confusion_matrix_logistic.png)
 ---
 
 ## Future Work
